@@ -20,18 +20,18 @@ int main(int argc, char *argv[]) {
         result = numerpierwszy + numerdrugi;
         printf("%d + %d = %d", numerpierwszy, numerdrugi, result);
     }
-    if (strcmp(argv[2], "sub") == 0) {
+    if (strcmp(argv[2], "substract") == 0) {
         result = numerpierwszy - numerdrugi;
         printf("%d - %d = %d", numerpierwszy, numerdrugi, result);
     }
-    if (strcmp(argv[2], "mul") == 0) {
+    if (strcmp(argv[2], "multiply") == 0) {
         result = numerpierwszy * numerdrugi;
         printf("%d * %d = %d", numerpierwszy, numerdrugi, result);
     }
-    if (strcmp(argv[2], "div") == 0) {
+    if (strcmp(argv[2], "divide") == 0) {
         result = numerpierwszy / numerdrugi;
         printf("%d / %d = %d", numerpierwszy, numerdrugi, result);
-        if ( numerdrugi = 0){
+        if ( numerdrugi == 0){
             printf("Nie można dzielić przez 0");
         }
     }
